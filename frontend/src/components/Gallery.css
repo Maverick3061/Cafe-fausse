@@ -1,0 +1,105 @@
+.gallery-container {
+  padding: 40px 20px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+.gallery-container h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.gallery-intro {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 18px;
+  color: #555;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.image-wrapper {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Awards Section */
+.awards-section {
+  background: #f9f9f9;
+  padding: 40px 20px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+.awards-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.awards-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.awards-section li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* Reviews Section */
+.reviews-section {
+  padding: 30px 20px;
+}
+
+.reviews-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.review {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.review p {
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.review span {
+  display: block;
+  color: #666;
+  font-size: 14px;
+}
