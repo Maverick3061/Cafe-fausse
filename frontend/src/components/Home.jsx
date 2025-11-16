@@ -1,18 +1,18 @@
-import React from "react";
+import "./Home.css";
+import bg from "../assets/coffee-bg.jpg";
 
-function Home() {
+export default function Home() {
   return (
-    <div className="container">
-      <div className="card">
-        <h2>Welcome to Café Fausse</h2>
-        <p>
-          Experience fine dining at its best — elegant ambiance, exceptional cuisine,
-          and unforgettable service. Explore our menu, reserve a table, or learn
-          more about our story.
-        </p>
+    <section
+      className="home-hero"
+      style={{ backgroundImage: `url(${bg})` }}
+    >
+      <div className="hero-overlay"></div>
+      <div className="hero-content">
+        <h1>Welcome to Café Fausse</h1>
+        <p>Where aroma, artistry, and ambience blend into perfection.</p>
+        <a href="/menu" className="hero-btn">Explore Menu</a>
       </div>
-    </div>
+    </section>
   );
 }
-
-export default Home;

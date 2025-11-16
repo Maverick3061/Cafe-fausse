@@ -1,64 +1,72 @@
 .about-container {
-  padding: 40px 20px;
-  font-family: "Poppins", sans-serif;
+  padding: 60px 10%;
+  background-color: #f9f7f4;
   color: #333;
+  font-family: "Poppins", sans-serif;
 }
 
-.about-intro {
+.intro-section {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
-.about-intro h1 {
-  font-size: 40px;
-  margin-bottom: 20px;
-  color: #2c2c2c;
-}
-
-.mission, .founders, .values {
-  margin-bottom: 50px;
-}
-
-.mission h2, .founders h2, .values h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #444;
-}
-
-.founder-profiles {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-}
-
-.founder-card {
-  width: 300px;
-  text-align: center;
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.founder-card img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
+.intro-section h2 {
+  font-size: 2.5rem;
   margin-bottom: 15px;
+  color: #3e2f1c;
 }
 
-.founder-card h3 {
-  margin-bottom: 10px;
-  color: #222;
-}
-
-.values ul {
-  list-style: disc;
-  text-align: left;
+.intro-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 800px;
   margin: 0 auto;
-  max-width: 500px;
-  line-height: 1.8;
+}
+
+.owners-section h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #3e2f1c;
+  margin-bottom: 40px;
+}
+
+.owners-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.owner-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+  padding: 25px;
+  transition: transform 0.3s ease;
+}
+
+.owner-card:hover {
+  transform: translateY(-5px);
+}
+
+.owner-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.owner-card h4 {
+  font-size: 1.3rem;
+  color: #3e2f1c;
+  margin-bottom: 10px;
+}
+
+.owner-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
 }
